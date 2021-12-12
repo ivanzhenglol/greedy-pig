@@ -36,7 +36,7 @@ const holdMyScore = () => {
 };
 const rollMyDice = () => {
 if (isGameRunning === true) {
-    
+const dice = Math.trunc( Math.random() * 6) + 1
 }
 };
 const switchplayer = () => {
