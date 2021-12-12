@@ -35,11 +35,13 @@ const holdMyScore = () => {
 
 };
 const rollMyDice = () => {
-
+if (isGameRunning === true) {
+    
+}
 };
 const switchplayer = () => {
 
-}
+};
 startGame();
 buttonNew.addEventListener('click',() => {
     startGame();
